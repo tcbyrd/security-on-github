@@ -159,7 +159,7 @@ function flip_click() {
         count = 1;
         setTimeout(function(){
           arr.forEach(c => c.classList.remove('flip'));
-        }, 400);
+        }, 1000);
       }
     });
   });
